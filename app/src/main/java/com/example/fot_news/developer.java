@@ -46,10 +46,6 @@ public class developer extends AppCompatActivity {
                 }
             });
         }
-        // You would add any other initialization for EditText fields or other UI elements
-        // from activity_developer.xml here if you want them to be interactive.
-        // Example:
-        // EditText studentIdEditText = findViewById(R.id.edit_text_student_id);
-        // ...
+
     }
 }
