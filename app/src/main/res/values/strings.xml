@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FOT News</string>
+    <string name="back_button_description">Back button</string>
+    <string name="profile_picture_description">User profile picture</string>
+    <string name="arrow_icon_description">Arrow icon</string>
+    <string name="account_icon_description">Account icon</string>
+    <string name="notification_icon_description">Notification icon</string>
+    <string name="privacy_icon_description">Privacy icon</string>
+    <string name="support_icon_description">Support icon</string>
+    <string name="about_us_icon_description">About Us icon</string>
+    <string name="logout_icon_description">Logout icon</string>
+    <string name="text_account">Account</string>
+    <string name="text_notification">Notification</string>
+    <string name="text_privacy">Privacy</string>
+    <string name="text_support">Support</string>
+    <string name="text_about_us">About Us</string>
+    <string name="button_logout">Logout</string>
+
+    <string name="default_user_name">Kusal Sandamal</string>
+    <string name="title_activity_userprofile">userprofile</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="edit_icon_description">Edit field</string>
+    <string name="title_activity_fragment_sign_out">FragmentSignOut</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>
