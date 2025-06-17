@@ -5,37 +5,37 @@
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:padding="24dp"
-    android:background="@android:color/white"
-    android:layout_margin="16dp"> <TextView
-    android:id="@+id/textViewSignOutPrompt"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Really want to sign out?"
-    android:textSize="24sp"
-    android:textStyle="bold"
-    android:textColor="@android:color/black"
-    android:gravity="center"
-    android:layout_marginBottom="24dp"/>
+    android:background="#E8EAF6"
+    android:layout_marginStart="16dp"  android:layout_marginEnd="16dp"
+    android:elevation="8dp">
+
+    <TextView
+        android:id="@+id/textViewSignOutPrompt"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Really want to sign out?"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_horizontal">
 
         <Button
             android:id="@+id/buttonCancel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="Cancel"
-            android:layout_marginEnd="16dp"/>
-
-        <Button
-            android:id="@+id/buttonOk"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="OK" />
-
-    </LinearLayout>
+            android:layout_marginEnd="8dp" android:textColor="#FFFFFF"
+            android:backgroundTint="#1A237E" /> <Button
+        android:id="@+id/buttonOk"
+        android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="OK"
+        android:layout_marginStart="8dp" android:textColor="#FFFFFF"
+        android:backgroundTint="#1A237E" /> </LinearLayout>
 
 </LinearLayout>
