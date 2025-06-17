@@ -41,7 +41,7 @@ public class FragmentSport extends Fragment {
         sportArticles = new ArrayList<>();
 
         // Initialize Firebase Database reference
-        mDatabase = FirebaseDatabase.getInstance().getReference("sports_articles");
+        mDatabase = FirebaseDatabase.getInstance().getReference("categories/sport");
 
         // Fetch real-time data from Firebase
         mDatabase.addValueEventListener(new ValueEventListener() {
