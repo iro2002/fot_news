@@ -147,32 +147,22 @@
         android:id="@+id/llHaveAccountSignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_marginTop="16dp"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tilConfirmPassword">
 
         <TextView
             android:id="@+id/tvHaveAccount"
-            android:layout_width="wrap_content"
+            android:layout_width="169dp"
             android:layout_height="wrap_content"
-            android:text="Have Account?"
+            android:fontFamily="sans-serif"
+            android:text="               Have Account?"
             android:textColor="#49454F"
             android:textSize="16sp"
-            android:fontFamily="sans-serif"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/tvSignIn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="4dp"
-            android:text="Sign In"
-            android:textColor="#1A237E"
-            android:textStyle="bold"
-            android:textSize="16sp"
-            android:fontFamily="sans-serif" />
     </LinearLayout>
 
     <!-- Sign Up Button -->
@@ -190,5 +180,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/llHaveAccountSignIn" />
+
+    <TextView
+        android:id="@+id/tvSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Sign In"
+        android:textColor="#1A237E"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="598dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

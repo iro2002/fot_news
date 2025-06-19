@@ -98,40 +98,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tilPassword">
 
-        <TextView
-            android:id="@+id/tvNoAccount"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
-            android:text="Don't Have Account?"
-            android:textColor="#49454F"
-            android:textSize="16sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/tvSignUp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="4dp"
-            android:fontFamily="sans-serif"
-            android:text="Sign Up"
-            android:textColor="#1A237E"
-            android:textSize="16sp"
-            android:textStyle="bold" />
     </LinearLayout>
 
     <Button
         android:id="@+id/btnForgotPassword"
         style="@style/Widget.MaterialComponents.Button.TextButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_width="137dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="24dp"
         android:text="Forgot Password"
         android:textColor="#49454F"
         android:textSize="11sp"
         android:textStyle="bold"
         app:cornerRadius="8dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/llNoAccountSignUp"
         app:strokeColor="#BDBDBD"
@@ -152,5 +133,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnForgotPassword"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Sign Up"
+        android:textColor="#1A237E"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="512dp" />
+
+    <TextView
+        android:id="@+id/tvNoAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="No Account?"
+        android:textColor="#49454F"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="513dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

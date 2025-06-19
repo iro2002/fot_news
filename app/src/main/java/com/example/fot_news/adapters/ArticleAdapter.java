@@ -39,7 +39,6 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.ArticleV
         // Set article title, description, and time
         holder.title.setText(article.getTitle());
         holder.description.setText(article.getDescription());
-        holder.timeAgoTextView.setText(article.getTimeAgo()); // Display the time with the 'getTimeAgo()' method
 
         // Load the image using Glide (if image is a URL)
         String imageUrl = article.getImage();  // Assuming this is a URL or a drawable resource name
